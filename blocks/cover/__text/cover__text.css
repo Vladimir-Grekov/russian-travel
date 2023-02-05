@@ -1,12 +1,12 @@
 .cover__text {
-box-sizing: content-box;
+margin: auto;
+text-align: center;
+justify-content: center;
 max-width: 560px;
-z-index: 10;
 }
 
 @media screen and (max-width: 767px) {
-.cover__text {
+.cover__text{
 max-width: 288px;
-z-index: 10;
 }
 }
