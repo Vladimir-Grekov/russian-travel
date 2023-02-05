@@ -1,0 +1,29 @@
+.place__text {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+padding: 0;
+margin: 0;
+row-gap: 26px;
+color: #FFFFFF;
+font-weight: 400;
+font-size: 18px;
+line-height: 163%;
+}
+
+@media screen and (max-width: 1023px) {
+.place__text {
+max-width: 352px;
+row-gap: 25px;
+font-size: 16px;
+}
+}
+
+@media screen and (max-width: 767px) {
+.place__text {
+max-width: 288px;
+margin: 0 auto;
+justify-content: center;
+}
+}

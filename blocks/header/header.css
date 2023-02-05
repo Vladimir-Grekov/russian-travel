@@ -1,0 +1,32 @@
+header {
+display: grid;
+grid-template-columns: 1fr 30px 29px;
+grid-template-rows: 52px;
+gap: 18px; 
+background-color: #2A2C2F;
+margin: 28px auto 0 auto;
+max-width: 1184px;
+max-height: 52px;
+}
+
+@media screen and (max-width: 1279px){
+.header {
+max-width: 928px;
+}
+}
+
+@media screen and (max-width: 1023px) {
+.header {
+max-width: 720px;
+}
+}
+
+@media screen and (max-width: 767px) {
+.header {
+grid-template-columns: 1fr 22px 22px;
+grid-template-rows: 42px;
+margin: 16px auto 0 auto;
+max-width: 288px;
+max-height: 42px;
+}
+}

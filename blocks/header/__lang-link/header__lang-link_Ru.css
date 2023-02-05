@@ -1,0 +1,16 @@
+.header__lang-link_Ru {
+margin: 18px auto 6px auto;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+color: #FFFFFF;
+text-decoration: underline;
+}
+
+@media screen and (max-width: 767px) {
+.header__lang-link_Ru {
+margin: 14px auto 8px auto;
+font-size: 18px;
+line-height: 20px;
+}
+}
