@@ -1,7 +1,7 @@
 .cover {
 position: relative;
 background-image: url(../../images/cover.png);
-margin: 92px auto 0 auto; 
+margin: 92px auto 0 auto;
 max-width: 1184px;
 height: 740px;
 z-index: 0;
@@ -19,7 +19,7 @@ height: 640px;
 @media screen and (max-width: 1023px) {
 .cover {
 background-image: url(../../images/cover_background_768px.png);
-margin: 90px auto 0 auto; 
+margin: 90px auto 0 auto;
 max-width: 768px;
 height: 480px;
 }
@@ -28,7 +28,7 @@ height: 480px;
 @media screen and (max-width: 767px) {
 .cover {
 background-image: url(../../images/cover__background_320px.png);
-margin: 66px auto 0 auto; 
+margin: 66px auto 0 auto;
 max-width: 320px;
 height: 200px;
 }
