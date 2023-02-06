@@ -15,10 +15,6 @@ text-decoration: underline;
 text-decoration: underline;
 }
 
-.header__lang-link::after {
-text-decoration: underline;
-}
-
 @media screen and (max-width: 767px) {
 .header__lang-link {
 margin: 14px auto 8px auto;
