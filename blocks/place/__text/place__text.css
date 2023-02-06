@@ -14,7 +14,6 @@ line-height: 163%;
 
 @media screen and (max-width: 1023px) {
 .place__text {
-max-width: 352px;
 row-gap: 25px;
 font-size: 16px;
 }

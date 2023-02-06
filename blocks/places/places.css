@@ -17,9 +17,9 @@ grid-template-rows: minmax(min-content, 640px);
 @media screen and (max-width: 1023px) {
 .places {
 grid-template-columns: minmax(720px, min-content);
-grid-template-rows: minmax(581px, min-content);
-row-gap: 73px;
+grid-template-rows: repeat(5, min-content);
 margin: 88px auto 0 auto;
+row-gap: 73px;
 }
 }
 

@@ -7,3 +7,5 @@
 Ссылки в проекте - кликабельны.
 
 Формат изображений на сайте - png.
+
+ссылка на gh pages: https://vladimir-grekov.github.io/russian-travel/
