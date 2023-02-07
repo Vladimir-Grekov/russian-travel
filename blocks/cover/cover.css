@@ -3,7 +3,7 @@ position: relative;
 background-image: url(../../images/cover.png);
 margin: 92px auto 0 auto;
 max-width: 1184px;
-height: 740px;
+min-height: 740px;
 z-index: 0;
 background-repeat: no-repeat;
 box-sizing: border-box;
@@ -13,7 +13,7 @@ background-position: center;
 @media screen and (max-width: 1279px) {
 .cover {
 max-width: 1024px;
-height: 640px;
+min-height: 640px;
 }
 }
 
@@ -22,7 +22,7 @@ height: 640px;
 background-image: url(../../images/cover_background_768px.png);
 margin: 90px auto 0 auto;
 max-width: 768px;
-height: 480px;
+min-height: 480px;
 }
 }
 
@@ -31,6 +31,6 @@ height: 480px;
 background-image: url(../../images/cover__background_320px.png);
 margin: 66px auto 0 auto;
 max-width: 320px;
-height: 200px;
+min-height: 200px;
 }
 }

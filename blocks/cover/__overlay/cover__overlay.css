@@ -8,10 +8,6 @@ background: rgba(42, 44, 47, 0.3);
 z-index: 5; 
 }
 
-.cover__overlay:hover {
-background: rgba(42, 44, 47, 0.8);
-}
-
 @media screen and (max-width: 1279px) {
 .cover__overlay {
 max-width: 1024px;

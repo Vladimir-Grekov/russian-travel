@@ -1,3 +1,24 @@
 .body {
-background-color: #2A2C2F; 
+background-color: #2A2C2F;
+font-family: 'Inter', sans-serif;
+min-width: 1280px;
+margin: 0 auto;
+}    
+    
+@media screen and (max-width: 1279px) {
+.body {
+min-width: 1024px;
+}
+}
+    
+@media screen and (max-width: 1023px) {
+.body {
+min-width: 768px;
+}
+}
+    
+@media screen and (max-width: 767px) {
+.body {
+min-width: 320px;
+}
 }

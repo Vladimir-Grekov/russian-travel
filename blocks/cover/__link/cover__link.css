@@ -9,7 +9,7 @@ justify-content: center;
 }
 
 .cover__link:hover {
-text-shadow: 1px 1px 2px white;
+background: rgba(42, 44, 47, 0.8);
 }
 
 @media screen and (max-width: 1279px) {
